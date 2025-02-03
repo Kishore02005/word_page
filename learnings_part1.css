@@ -1,0 +1,128 @@
+body{
+    box-sizing:border-box;
+    margin: 0px;
+    font-size: 16px;
+}
+.main{
+    background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.word-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.word{
+    font-size: 6.5em;
+    font-family: "Tangerine";
+    font-weight: bold;
+    color: white;
+    background: -webkit-linear-gradient(#ffffff, #d67979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+    animation: word-animation-l-r 1s;
+    animation-timing-function: ease;
+}
+.word-classify{
+    font-size: .5em;
+    color: rgb(255, 255, 255);
+}
+.word-desc{
+    font-size: 2.2em;
+    font-family: "Caveat";
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+    animation: word-animation-l-r 2s;
+    animation-timing-function: ease-in-out;
+}
+.pronounce{
+    font-size: 2.7em;
+    font-family: "Tangerine";
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    align-self: flex-end;
+    margin-top: 15px;
+    animation: word-animation-l-r 2.5s;
+}
+.word-pronounce{
+    font-weight: normal;
+}
+.origin{
+    font-size: 2.7em;
+    font-family: "Tangerine";
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    align-self: flex-end;
+    margin-top: 15px;
+    animation: word-animation-r-l 2.5s;
+}
+.word-origin{
+    font-weight: normal;
+}
+@keyframes word-animation-l-r {
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes word-animation-r-l {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@media (min-width:320px) {
+    body {
+        font-size: 9px;
+    }
+    .main{
+        background-image: url("https://picture.lk/files/preview/960x1713/11710022000fpxcboah6jvdottwsmsrpkousw26foxhgze95w4prrkz0qh4f7haj70a8tzg3uflki4h1ckxaodt6obecbp63ltdazvxpl7xiusf.jpg");
+    } 
+}
+@media (min-width:576px) {
+    body {
+        font-size: 10px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
+@media (min-width:768px) {
+    body {
+        font-size: 12px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
+@media (min-width:992px) {
+    body {
+        font-size: 14px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
+@media (min-width:1200px) {
+    body {
+        font-size: 16px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
