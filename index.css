@@ -20,7 +20,7 @@ body{
 }
 
 .word{
-    font-size: 6.5em;
+    font-size: 6.5rem;
     font-family: "Tangerine";
     font-weight: bold;
     color: white;
@@ -32,11 +32,11 @@ body{
     animation-timing-function: ease;
 }
 .word-classify{
-    font-size: .5em;
+    font-size: .5rem;
     color: rgb(255, 255, 255);
 }
 .word-desc{
-    font-size: 2.2em;
+    font-size: 2.2rem;
     font-family: "Caveat";
     font-weight: normal;
     font-style: italic;
@@ -45,7 +45,7 @@ body{
     animation-timing-function: ease-in-out;
 }
 .pronounce{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-family: "Tangerine";
     font-weight: bold;
     font-style: normal;
@@ -58,7 +58,7 @@ body{
     font-weight: normal;
 }
 .origin{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-family: "Tangerine";
     font-weight: bold;
     font-style: normal;
