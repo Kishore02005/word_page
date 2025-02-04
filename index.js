@@ -65,7 +65,10 @@ function btnChange (){
         document.head.appendChild(styleSheet);    
         document.getElementById("compat").innerHTML=
         `<div class="word-container">
-        <h1 class="word" id="Pronounce_Word">${words[count].word} <span class="word-classify">${words[count].type}</span></h1>
+         <div class="word-specific-cont">
+                        <h1 class="word" id="Pronounce_Word">${words[count].word</h1>
+                        <p class="word-classify">${words[count].type</p>
+                    </div>
         <p class="word-desc">${words[count].synonym}</p>
         <div class="pronounce_cont" onclick="pronounce()">
                         <i class="fa-solid fa-volume-low speaker"></i>
