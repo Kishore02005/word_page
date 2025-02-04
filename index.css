@@ -1,0 +1,168 @@
+body{
+    box-sizing:border-box;
+    margin: 0px;
+    font-size: 16px;
+}
+.main{
+    background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.word-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.word-specific-cont{
+    display: flex;
+}
+.word{
+    font-size: 3.5rem;
+    font-family: "Tangerine";
+    font-weight: bold;
+    background: -webkit-linear-gradient(#dd9393, #df385c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+    animation: word-animation-l-r 1s;
+    animation-timing-function: ease;
+}
+.word-classify{
+    font-size: 1.5rem;
+    margin: 0px;
+    margin-left: 0.7rem;
+    font-family: "Tangerine";
+    font-weight: bold;
+    background: -webkit-linear-gradient(#dd9393, #df385c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1.5rem;
+}
+.word-desc{
+    font-size: 1.2rem;
+    font-family: "serif";
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+    animation: word-animation-l-r 2s;
+    animation-timing-function: ease-in-out;
+}
+.pronounce{
+    font-size: 1rem;
+    font-family: "Mogra";
+    font-weight: bold;
+    font-style: italic;
+    color:silver;
+    align-self: flex-end;
+    margin: 0px;
+}
+.word-pronounce{
+    font-weight: normal;
+    font-style: italic;
+    color:silver;
+}
+.origin{
+    font-size: 1rem;
+    font-family: "Mogra";
+    font-weight: bold;
+    font-style: normal;
+    color:goldenrod;
+    align-self: flex-end;
+    margin-top: 0.3rem;
+    animation: word-animation-r-l 2.5s;
+}
+.word-origin{
+    font-weight: normal;
+    color:goldenrod;
+
+}
+.btn-next{
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-width: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-family:"Roboto";
+}
+.compartment{
+    background-color:rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px ;
+    margin: 0.5rem;
+}
+.pronounce_cont{
+    display: flex;
+    margin-top: 0.3rem;
+    padding: 10px;
+    animation: word-animation-l-r 2.5s;
+}
+.speaker{
+    color: #000000;
+    margin: 0px;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+@keyframes word-animation-l-r {
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes word-animation-r-l {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@media (min-width:320px) {
+    html {
+        font-size: 14px;
+    } 
+    .main{
+        background-image: url("https://picture.lk/files/preview/960x1713/11710022000fpxcboah6jvdottwsmsrpkousw26foxhgze95w4prrkz0qh4f7haj70a8tzg3uflki4h1ckxaodt6obecbp63ltdazvxpl7xiusf.jpg");
+        } 
+}
+@media (min-width:576px) {
+    html {
+        font-size: 16px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
+@media (min-width:768px) {
+    html {
+        font-size: 18px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
+@media (min-width:992px) {
+    html {
+        font-size: 20px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
+@media (min-width:1200px) {
+    html {
+        font-size: 22px;
+    }
+    .main{
+        background-image: url("https://wallpapercave.com/wp/wp8137310.jpg");
+    }
+}
