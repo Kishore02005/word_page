@@ -87,7 +87,7 @@ function pronounce(){
     const randVoice=Math.floor(Math.random()*3)
     utterance.voice=voices[randVoice]
     utterance.pitch=0.9;
-    utterance.rate=1.5;
+    utterance.rate=1;
     window.speechSynthesis.speak(utterance);
     console.log("test_alive")
 }
